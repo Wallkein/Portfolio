@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto&display=swap" rel="stylesheet">
+      <script src="js/jquery-3.6.0.min.js"></script>
+   </head>
+   
+   <body>
+
+       <header>
+         <div class="wrapper">
+            <div class="header_wrapper">
+              <div class="header_logo">
+                  <h1>WD</h1>
+              </div>
+
+              <div class="header_menu">
+                 <a class="menu_item" href="#intro">ГЛАВНАЯ</a>
+                 <a class="menu_item" href="#about_me">ОБ АВТОРЕ</a>
+                 <a class="menu_item" href="#my_projects">РАБОТЫ</a>
+                 <a class="menu_item" href="#process">ПРОЦЕСС</a>
+                 <a class="menu_item" href="#send">КОНТАКТЫ</a>
+               </div>
+            </div>
+         </div>
+       </header>
+
+       <main>
+            <section class="intro">
+               <a name="intro"></a>
+               <div class="intro_left">
+                  <img class="intro_img" src="intro_logo.svg" alt="INTRO">
+               </div>
+               
+               <div class="intro_right">
+                  <h1 class="intro_title" id="myTitle">
+                     Дизаин и верстка
+                  </h1>
+                  <p class="intro_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                  <button class="intro_button" id="myBtn">НАПИСАТЬ МНЕ</button>
+                  <div class="modal" id="myModal">
+                     <div class="modal_content" id="cont">
+                        <div class="close" id="myClose">
+                           &times;
+                        </div>
+                        <div class="send_wrapper">
+                           <h1 class="modal_title">
+                              Хотите веб-сайт?
+                           </h1>
+                           <form>
+                             <div class="send_form">
+                                <div>
+                                    <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                                    <input type="email" class="form2 formstyle" placeholder="Ваш e-mail">
+                                </div>
+                                <div>
+                                   <textarea class="form3 formstyle" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                                </div> 
+                                <button class="send_button">ОТПРАВИТЬ</button>
+                             </div> 
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div> 
+            </section>
+
+            <section class="about_me">
+               <a name="about_me"></a>
+               <div class="wrapper">
+                  <div class="about_wrapper">
+                     <div class="about_block">
+                        <h2 class="about_title">Обо мне</h2>
+                        <p class="about_text">Демьянов Данила Андреевич, преподаватель в школе программирования CodeCLass,cтудент УлГТУ, старший преподаватель в ДЮИА. Занимаюсь обучением детей в течении 2-ух лет. </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="my_projects">
+               <a name="my_projects"></a>
+               <div class="wrapper">
+                  <div class="my_projects_wrapper">
+                     <div class="my_projects_block">
+                        <img src="numbers_item.svg" alt="num" class="project_img">
+                        <img src="numbers_item.svg" alt="num" class="project_img">
+                        <img src="numbers_item.svg" alt="num" class="project_img">
+                        <img src="numbers_item.svg" alt="num" class="project_img">
+                        <img src="numbers_item.svg" alt="num" class="project_img">
+                        <img src="numbers_item.svg" alt="num" class="project_img">
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="skills">
+               <div class="wrapper">
+                  <div class="skills_wrapper">
+                     <div class="skills_left">
+                        <h3 class="skills_title">Мои навыки</h3>
+                        <h4 class="skill skill1">Профессионализм</h4>
+                        <h4 class="skill skill2">Ответственность</h4>
+                        <h4 class="skill skill3">Стрессоустойчивость</h4>
+                     </div>
+                        
+                     <div class="skills_right">
+                        <img src="my_photo.png" alt="skills_img" class="my_photo">
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="process">
+               <a name="process"></a>
+               <div class="wrapper">
+                  <div class="process_wrapper">
+                     <div class="process_block">
+                        <h1 class="process_title">Как я работаю</h1>
+                        <p class="process_text">Я готов работать каждый день в любое свободное время</p>
+                     </div>
+                     <video src="video.mp4" class="process_video" controls= "controls"></video>
+                  </div>
+               </div>
+            </section>
+
+            <section>
+               <div class="gallery">
+                  <div class="gallery_str">
+                     <a href="gallery_img1.png" class="lightzoom">
+                        <img src="gallery_img1.png" alt="картинка1" class="gallery_img">
+                     </a>
+                     <a href="gallery_img2.png" class="lightzoom">
+                        <img src="gallery_img2.png" alt="картинка2" class="gallery_img">
+                     </a>
+                     <a href="gallery_img1.png" class="lightzoom">
+                        <img src="gallery_img1.png" alt="картинка1" class="gallery_img">
+                     </a>
+                     <a href="gallery_img2.png" class="lightzoom">
+                        <img src="gallery_img2.png" alt="картинка2" class="gallery_img">
+                     </a>
+                  </div>
+                  <div class="gallery_str">
+                     <a href="gallery_img1.png" class="lightzoom">
+                        <img src="gallery_img1.png" alt="картинка1" class="gallery_img">
+                     </a>
+                     <a href="gallery_img2.png" class="lightzoom">
+                        <img src="gallery_img2.png" alt="картинка2" class="gallery_img">
+                     </a>
+                     <a href="gallery_img1.png" class="lightzoom">
+                        <img src="gallery_img1.png" alt="картинка1" class="gallery_img">
+                     </a>
+                     <a href="gallery_img2.png" class="lightzoom">
+                        <img src="gallery_img2.png" alt="картинка2" class="gallery_img">
+                     </a>
+                  </div>
+               </div>
+            </section>
+
+            <section class="my_logo">
+               <div class="wrapper">
+                  <div class="my_logo_wrapper">
+                     <div class="my_logo_block">
+                        <img src="microsoft_logo.svg" alt="logo" class="logo_img">
+                        <img src="microsoft_logo.svg" alt="logo" class="logo_img">
+                        <img src="microsoft_logo.svg" alt="logo" class="logo_img">
+                        <img src="microsoft_logo.svg" alt="logo" class="logo_img">
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="send">
+               <a name="send"></a>
+               <div class="wrapper">
+                  <div class="send_wrapper">
+                     <h1 class="send_title">Хотите веб-сайт?
+                     </h1>
+                     <p class="send_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iusto tenetur quo quos repellendus, natus commodi laborum ad accusantium? Sequi officiis non culpa saepe debitis minus nobis animi ducimus unde?
+                     </p>
+                     <form>
+                       <div class="send_form">
+                          <div>
+                              <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                              <input type="email" class="form2 formstyle" placeholder="Ваш e-mail">
+                          </div>
+                          <div>
+                             <textarea class="form3 formstyle" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                          </div> 
+                          <button class="send_button">ОТПРАВИТЬ</button>
+                       </div> 
+                     </form>
+                  </div>
+               </div>
+            </section>
+
+       </main>
+
+       <footer>
+          <div class="wrapper">
+             <div class="footer_wrapper">
+                <div class="footer_left">
+                  <h3 class="footer_name">Демьянов Данил</h3>
+                  <p class="copyright">(c) 2021. Все права защищены</p>
+                </div>
+
+                <div class="footer_right">
+                  <img src="vk-social-network-logo.png" alt="VK" class="soc_logo">
+                  <img src="vk-social-network-logo.png" alt="VK" class="soc_logo">
+                  <img src="vk-social-network-logo.png" alt="VK" class="soc_logo">
+                </div>
+             </div>
+          </div>
+       </footer>
+
+       <link rel="stylesheet" href="lightzoom/style.css" type="text/css">
+       <script type="text/javascript" src="lightzoom/lightzoom.js"></script>
+       <script type="text/javascript">jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true, isOverlayClickClosing: true});</script>
+       <script src="myscript.js"></script>
+   </body>
+
+</html>
